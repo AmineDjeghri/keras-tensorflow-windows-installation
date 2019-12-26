@@ -4,10 +4,10 @@
 
 ### Step 1: Install NVIDIA Driver <a href="https://www.nvidia.com/Download/index.aspx?lang=en-us" target="_blank">Download</a>
 Select the appropriate version and click search
-<p align="center"><img width=80% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/screenshots/NVIDIA_Driver_installation_v2.png"></p>
+<p align="center"><img width=80% src="https://github.com/aminedjeghri/keras-tensorflow-windows-installation/blob/master/screenshots/NVIDIA_Driver_installation_v2.png"></p>
 
 ### Step 2: Install Anaconda (Python 3.7 version) <a href="https://www.anaconda.com/download/" target="_blank">Download</a>
-<p align="center"><img width=80% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/screenshots/anaconda_windows_installation_v2.png"></p>
+<p align="center"><img width=80% src="https://github.com/aminedjeghri/keras-tensorflow-windows-installation/blob/master/screenshots/anaconda_windows_installation_v2.png"></p>
 
 ### Step 3: Update Anaconda
 Open Anaconda Prompt to type the following command(s) (you can just search Anaconda Prompt in the windows search bar)
@@ -19,13 +19,13 @@ conda update --all
 ### Step 4: Install CUDA Tookit 10.0 <a href="https://developer.nvidia.com/cuda-downloads" target="_blank">Download</a>
 Choose your version depending on your Operating System
 
-<p align="center"><img width=90% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/screenshots/cuda10_windows10_local_installation.png"></p>
+<p align="center"><img width=90% src="https://github.com/aminedjeghri/keras-tensorflow-windows-installation/blob/master/screenshots/cuda10_windows10_local_installation.png"></p>
 
 ### Step 5: Download cuDNN <a href="https://developer.nvidia.com/rdp/cudnn-download" target="_blank">Download</a>
 Choose your version depending on your Operating System.
 Membership registration is required.
 
-<p align="center"><img width=90% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/screenshots/cuDNN_windows_download_v2.png"></p>
+<p align="center"><img width=90% src="https://github.com/aminedjeghri/keras-tensorflow-windows-installation/blob/master/screenshots/cuDNN_windows_download_v2.png"></p>
 
 Put your unzipped folder in C drive as follows: 
 ```Command Prompt
@@ -44,14 +44,14 @@ You can either follow this <a href="https://kb.wisc.edu/cae/page.php?id=24500" t
 #### Step 6.1: open the Start Search, type in “env”
 #### Step 6.2: choose “Edit environment variables for your account”:
 
-<p align="center"><img width=80% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/screenshots/add_environment_variable_01.png"></p>
+<p align="center"><img width=80% src="https://github.com/aminedjeghri/keras-tensorflow-windows-installation/blob/master/screenshots/add_environment_variable_01.png"></p>
 
 #### Step 6.3: under the “Users' Variables” section (the upper half), find the row with “Path” in the first column, and click edit.
-<p align="center"><img width=80% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/screenshots/add_environment_variable_02.png"></p>
+<p align="center"><img width=80% src="https://github.com/aminedjeghri/keras-tensorflow-windows-installation/blob/master/screenshots/add_environment_variable_02.png"></p>
 
 #### Step 6.4: the “Edit environment variable” user interface will appear. click New.
 
-<p align="center"><img width=80% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/screenshots/add_environment_variable_03.png"></p>
+<p align="center"><img width=80% src="https://github.com/aminedjeghri/keras-tensorflow-windows-installation/blob/master/screenshots/add_environment_variable_03.png"></p>
 
 Now you can add a new path to the environment varible
 
@@ -79,7 +79,7 @@ activate keras-gpu
 ```
 
 ### Step 9: Testing
-Let's try running <a href="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/examples/mnist_mlp.py">mnist_mlp.py</a> in your prompt.
+Let's try running <a href="https://github.com/aminedjeghri/keras-tensorflow-windows-installation/blob/master/examples/mnist_mlp.py">mnist_mlp.py</a> in your prompt.
 
 Open Anaconda Prompt to type the following command(s)
 ```Command Prompt
@@ -88,7 +88,7 @@ python mnist_mlp.py
 ```
 Congratulations ! You have successfully run Keras (with Tensorflow backend) over GPU on Windows !
 
-<p align="left"><img width=100% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/screenshots/installation_success_v2.png"></p>
+<p align="left"><img width=100% src="https://github.com/aminedjeghri/keras-tensorflow-windows-installation/blob/master/screenshots/installation_success_v2.png"></p>
 
 ### Step 10 (Bonus): use it in jupyer notebook 
 install jupter in the new environnement, 
