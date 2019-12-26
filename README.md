@@ -97,7 +97,7 @@ Open Anaconda Prompt to type the following command(s)
 activate keras-gpu
 pip install jupyter
 ```
-(if you need to use instal libraries, just pip install them after activate this environment) as we did with jupyter)
+(if you need to use install libraries, just pip install them after activating this environment, as we pip installed jupyter)
 
 finally,if you want to use jupyter notebook with the GPU:
 just activate the environnement of the gpu in the anaconda prompt then do 'jupyter notebook' as follow:
