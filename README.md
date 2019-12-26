@@ -1,5 +1,6 @@
-# Keras-TensorFlow-GPU-Windows-Installation (Updated: 12th Apr, 2019)
-## 10 easy steps on the installation of TensorFlow-GPU and Keras in Windows
+# Keras-TensorFlow-GPU-Windows-Installation (Updated: 5th August, 2019)
+## 10 easy steps on the installation of TensorFlow-GPU and Keras in Windows  
+## A bonus step to use it in Jupyter Notebook
 
 ### Step 1: Install NVIDIA Driver <a href="https://www.nvidia.com/Download/index.aspx?lang=en-us" target="_blank">Download</a>
 Select the appropriate version and click search
@@ -63,6 +64,7 @@ You shall see that the new Environment PATH is there.
 
 ### Step 7: Create an Anaconda environment with Python=3.6
 Open Anaconda Prompt to type the following command(s)
+( the name 'keras-gpu' is your environment name, i chose keras-gpu because we will work with keras on the gpu )
 ```Command Prompt
 conda create -n keras-gpu python=3.6 numpy scipy keras-gpu
 ```
@@ -85,4 +87,17 @@ Congratulations ! You have successfully run Keras (with Tensorflow backend) over
 
 <p align="left"><img width=100% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/installation_success_v2.png"></p>
 
-### Step 10: Done !
+### Step 10 (Bonus): use it in jupyer notebook 
+install jupter in the new environnement in the command prompt with :
+```Command Prompt
+activate keras-gpu
+pip install jupyter
+```
+finally,if you want to use jupyter notebook with the GPU:
+just activate the environnement of the gpu in the command prompt then do 'jupyter notebook' as follow:
+```Command Prompt
+activate keras-gpu
+jupyter notebook
+```
+(or another way: inside the jupyter notebook: !activate keras-gpu )
+### Congratulations !
