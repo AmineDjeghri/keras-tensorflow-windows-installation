@@ -10,7 +10,7 @@ Select the appropriate version and click search
 <p align="center"><img width=80% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/anaconda_windows_installation_v2.png"></p>
 
 ### Step 3: Update Anaconda
-Open Anaconda Prompt to type the following command(s)
+Open Anaconda Prompt to type the following command(s) (you can just search Anaconda Prompt in the windows search bar)
 ```Command Prompt
 conda update conda
 conda update --all
@@ -65,9 +65,12 @@ You shall see that the new Environment PATH is there.
 ### Step 7: Create an Anaconda environment with Python=3.6
 Open Anaconda Prompt to type the following command(s)
 ( the name 'keras-gpu' is your environment name, i chose keras-gpu because we will work with keras on the gpu )
+
 ```Command Prompt
 conda create -n keras-gpu python=3.6 numpy scipy keras-gpu
 ```
+You can see next to the environment name : python=3.6 numpy scipy keras-gpu
+these are the libraries that we are installing with the creation of the new environment, because when you create an enviornment it comes empty!
 
 ### Step 8: Activate the environment
 Open Anaconda Prompt to type the following command(s)
@@ -88,16 +91,20 @@ Congratulations ! You have successfully run Keras (with Tensorflow backend) over
 <p align="left"><img width=100% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/installation_success_v2.png"></p>
 
 ### Step 10 (Bonus): use it in jupyer notebook 
-install jupter in the new environnement in the command prompt with :
+install jupter in the new environnement, 
+Open Anaconda Prompt to type the following command(s)
 ```Command Prompt
 activate keras-gpu
 pip install jupyter
 ```
+(if you need to use instal libraries, just pip install them after activate this environment) as we did with jupyter)
+
 finally,if you want to use jupyter notebook with the GPU:
-just activate the environnement of the gpu in the command prompt then do 'jupyter notebook' as follow:
+just activate the environnement of the gpu in the anaconda prompt then do 'jupyter notebook' as follow:
 ```Command Prompt
 activate keras-gpu
 jupyter notebook
 ```
-(or another way: inside the jupyter notebook: !activate keras-gpu )
+this will open the jupyter notebook running in this environment.
+(or another way: inside a jupyter notebook: !activate keras-gpu )
 ### Congratulations !
